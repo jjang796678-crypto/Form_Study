@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 선택 태그 </title>
+</head>
+<body>
+    <!-- 선택 태그 -->
+    <select> 
+        <option value="apple"> 사과 </option>
+        <option value="banana" > 바나나 </option>
+        <option value="grape" selected> 포도 </option>
+        <option value="mango"> 망고 </option>
+    </select>
+    <!-- 여러개 선택하기 -->
+    <select multiplew> 
+        <option> 축구 </option>
+        <option> 야구 </option>
+        <option> 수영 </option>
+        <option disabled> 스키 </option>
+        <option> 농구 </option>
+    </select>
+    <!-- disable = 비활설화, 선택 못하  -->
+    <!-- 옵션들을 그룹으로 만들기  -->
+    <select> 
+        <!-- 서울시 -->
+        <optgroup label="서울시">
+            <option> 강북구 </option>
+            <option> 강남구 </option>
+            <option> 서초구 </option>
+        </optgroup>
+        <!-- 경기도 -->
+        <optgroup label="경기도 ">
+            <option> 중원구 </option>
+            <option> 분당구 </option>
+            <option> 서초구 </option>
+        </optgroup>
+        <!-- 대구  -->
+        <optgroup label="대구">
+            <option> 동구 </option>
+            <option> 중구 </option>
+            <option> 수성구 </option>
+        </optgroup>
+    </select>
+</body>
+</html>

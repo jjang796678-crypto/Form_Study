@@ -1,0 +1,57 @@
+@charset "utf-8" ; 
+/* 초기화  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 바탕  */
+.race{
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+.race label{
+    display: block;
+    font-weight: bold;
+}
+.race input , 
+.race select , 
+.race textarea{ 
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #C9D1D9;
+    font-size: 12px;
+    margin-bottom: 20px;
+} 
+.race label{
+    margin-bottom: 10px;
+}
+/* 제목 */
+.race h2{
+    margin-bottom: 30px;
+}
+/* 문의 내용 */
+.race textarea{
+    height: 100px;
+    resize: vertical;
+}
+/* 제출 버튼 */
+.race button{
+    all: unset;
+    width: 100%;
+    padding: 16px;
+    background-color: #7C4DFF;
+    color: #00E5FF;
+    border: 1px solid #C9D1D9;
+    text-align: center;
+    box-sizing: border-box;
+}
+.race button:hover{
+    background-color: #FF2DAA;
+    color: #0B0D17;
+    cursor: pointer;
+}

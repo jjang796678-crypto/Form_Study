@@ -1,0 +1,61 @@
+@charset "utf-8" ; 
+/* 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 바탕 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+/* 관리자 페이지 */
+.admin{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #B5D692;
+}
+/* 제목 */
+.admin h2{
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}
+/* 주문 목록 테이블 */
+table{
+    width: 100%;
+    /* 테두리가 겹치는 것을 하나로 합쳐야 함 */
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+}
+th,td{
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+/* 표의 제목 */
+th{
+    background-color: #333;
+    color: #fff;
+}
+/* 표의 데이터 영역 */
+td{
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* 주문 상태 */
+.complete{
+    font-weight: bold;
+    color: green;
+}
+.delivery{
+    font-weight: bold;
+    color: orange;
+}
+.raedy{
+    font-weight: bold;
+    color: blue;
+}
